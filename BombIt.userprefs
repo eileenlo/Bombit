@@ -1,15 +1,10 @@
-﻿<Properties StartupItem="BombIt.Plugins.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\BoxSetup.cs">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\Enemy\EnemyAttack.cs">
     <Files>
-      <File FileName="Assets\script\GameOverMGR.cs" Line="1" Column="1" />
-      <File FileName="Assets\script\Enemy\Enemymovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\script\WalkableMGR.cs" Line="1" Column="1" />
-      <File FileName="Assets\script\WalkableMGRplayer.cs" Line="1" Column="1" />
-      <File FileName="Assets\script\Bomb\bombByEnemy.cs" Line="1" Column="1" />
-      <File FileName="Assets\script\Bomb\bombByPlayer.cs" Line="1" Column="1" />
-      <File FileName="Assets\script\Player\PlayerAttack.cs" Line="5" Column="26" />
-      <File FileName="Assets\script\BoxSetup.cs" Line="16" Column="50" />
+      <File FileName="Assets\script\UI\RestartBtn.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\Player\PlayerAttack.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\Enemy\EnemyAttack.cs" Line="60" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -58,7 +58,12 @@ public class EnemyAttack : MonoBehaviour {
 				createbomb ();
 			}
 		}
+		if (enemylife <= 0) {
 
+			anim.SetTrigger ("die");
+			GetComponent <UnityEngine.AI.NavMeshAgent> ().Stop();
+
+		}
 	}
 	void createbomb()
 	{
@@ -102,11 +107,7 @@ public class EnemyAttack : MonoBehaviour {
 		}
 		if (other.gameObject.tag == "Fire") {
 			enemylife -= 1;
-			if (enemylife <= 0) {
-				
-				anim.SetTrigger ("die");
-				GetComponent <UnityEngine.AI.NavMeshAgent> ().Stop();
-			}
+
 		}
 		if (other.gameObject.tag == "PHeart") {
 			enemylife += 1;
